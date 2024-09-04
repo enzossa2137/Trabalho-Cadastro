@@ -1,0 +1,27 @@
+/* Define estilo para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Define o estilo do contêiner de cadastro */
+.container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilo do título */
+.container h2 {
+    margin-bottom: 25px;
+    color: #333333;
+}
+

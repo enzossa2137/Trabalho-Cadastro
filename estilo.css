@@ -1,0 +1,64 @@
+/* Define estilo para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Define o estilo do contêiner de cadastro */
+.container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilo do título */
+.container h2 {
+    margin-bottom: 25px;
+    color: #333333;
+}
+
+/* Estilo dos rótulos */
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #1100ff;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Estilo do botão de cadastro */
+button {
+    width: 103%;
+    padding: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    align-content: center;
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: #0056b3;
+}
